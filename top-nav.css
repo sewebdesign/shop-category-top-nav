@@ -28,7 +28,7 @@
 
 /* Ul Styling */
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper {
-  padding-bottom: 30px;
+  padding-bottom: calc(var(--gap) * 2);
 }
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper ul {
   text-align: center;
