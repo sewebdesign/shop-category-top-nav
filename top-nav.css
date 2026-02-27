@@ -88,6 +88,10 @@
 #siteWrapper .product-list-nav {
   display: block !important;
 }
+/* Underline Styling */
+#siteWrapper .product-list-nav hr {
+  opacity: .3;
+}
 
 /* Hide Filter Button and Count */
 #siteWrapper .product-list-filters-interface-component {
