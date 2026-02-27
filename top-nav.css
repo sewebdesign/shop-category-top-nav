@@ -1,5 +1,5 @@
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] {
-  --gap: 1.5vw;
+  --gap: 1.7vw;
   --catSpacing: clamp(15px, var(--gap), 40px);
   row-gap: 10px!important;
   column-gap: 0!important;
