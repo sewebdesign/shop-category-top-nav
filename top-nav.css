@@ -13,9 +13,10 @@
     
     /* Invisible placeholder so products list result count stays below the categories */
        #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .product-list-nav-and-filters:after {
-      content: 'Products';
-      opacity: 0;
-      visibility: hidden;
+         content: 'Products'; 
+         opacity: 0; 
+         visibility: hidden;
+         display: none;
     }
     
     /* Align Counter to left (Squarespace default) */
@@ -26,6 +27,9 @@
   }
 
 /* Ul Styling */
+#siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper {
+  padding-bottom: 30px;
+}
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper ul {
   text-align: center;
   display: flex;
@@ -78,4 +82,14 @@
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"][data-header-text-alignment="right"] :is(ul,.nested-category-breadcrumb, .nested-category-title) {
   justify-content: right;
   text-align: right;
+}
+
+/* Show category links on mobile */
+#siteWrapper .product-list-nav {
+  display: block !important;
+}
+
+/* Hide Filter Button and Count */
+#siteWrapper .product-list-filters-interface-component {
+  display: none !important;
 }
