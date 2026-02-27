@@ -25,12 +25,19 @@
       align-self: end;
       justify-content: start;
     }
+
+    /* Space Beneath Links on Desktop */
+    #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper {
+      padding-bottom: 40px!important;
+    }
   }
 
-/* Ul Styling */
+/* Space Beneath Links on Mobile */
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper {
-  padding-bottom: var(--catSpacing);
+  padding-bottom: 5px;
 }
+
+/* Ul Styling */
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper ul {
   text-align: center;
   display: flex;
