@@ -29,7 +29,7 @@
 
 /* Ul Styling */
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper {
-  padding-bottom: calc(var(--catSpacing) * 2);
+  padding-bottom: var(--catSpacing);
 }
 #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .nested-category-tree-wrapper ul {
   text-align: center;
