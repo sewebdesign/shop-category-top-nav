@@ -7,6 +7,18 @@
 
 /* Move Side Categories above grid on desktop  */
 @media screen and (min-width: 768px) {
+  [data-is-plp-separate-categories-enabled="true"].product-list[data-nav-and-filters-position="sidebar"] {
+     grid-template-areas: 
+       "product-list-header product-list-header"
+       "product-list-result-count-container product-list-result-count-container"
+       "product-list-category-subnav-container product-list-category-subnav-container"
+       "product-list-category-select-container product-list-category-select-container"
+       "product-list-filters-container product-list-filters-container"
+       "product-list-filters-drawer-open-button-container product-list-filters-drawer-open-button-container"
+       "product-list-container product-list-container"
+       "product-list-pagination product-list-pagination";
+  }
+  
    #siteWrapper .product-list[data-nav-and-filters-position="sidebar"] .product-list-nav-and-filters {
       grid-area: product-list-result-count-container;
       max-width: 100%!important;
