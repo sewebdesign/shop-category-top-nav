@@ -7,7 +7,7 @@
 
 /* Move Side Categories above grid on desktop  */
 @media screen and (min-width: 768px) {
-  [data-is-plp-separate-categories-enabled="true"].product-list[data-nav-and-filters-position="sidebar"] {
+  #siteWrapper [data-is-plp-separate-categories-enabled="true"].product-list[data-nav-and-filters-position="sidebar"] {
      grid-template-areas: 
        "product-list-header product-list-header"
        "product-list-result-count-container product-list-result-count-container"
